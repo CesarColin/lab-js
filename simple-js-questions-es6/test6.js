@@ -3,3 +3,13 @@
 
 duplicate([1, 2, 3]);
 // Returns ==>  [1, 2, 3, 1, 2, 3]
+
+
+// ------------------------- SOLUTION -------------------------
+
+function duplicate(input) {
+  return input.concat(input);
+}
+
+result = duplicate([1, 2, 3]);
+console.log(result);
